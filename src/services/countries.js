@@ -6,4 +6,10 @@ export const fetchAllCountries = async () => {
     return getData(endPoint);
 };
 
-export const fetchCountry = countryUrl => getData(countryUrl);
+export const fetchCountry = countryUrl => {
+    try {
+        return getData(countryUrl);
+    } catch (error) {
+        return error;
+    }
+}

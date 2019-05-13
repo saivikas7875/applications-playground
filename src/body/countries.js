@@ -10,11 +10,20 @@ export const Countries = () => {
     const [countryInput, setCountryInput] = useState('');
     const [countryUrl, setCountryUrl] = useState('');
     const [countries, setCountries] = useState([]);
+    const [country, setCountry] = useState({});
+    const [error, setError] = useState('');
 
     useEffect(() => {
         const getCountry = async () => {
             const list = await fetchCountry(countryUrl);
-            setCountries(list);
+
+            if (list.length > 1) {
+                setCountries(list);
+            } else if (list.length === 1) {
+                setCountry(list[0]);
+            } else if (list.length === 0) {
+                setError(`No Countries found for with the name ${countryInput}`);
+            }
         };
 
         getCountry();
@@ -24,10 +33,20 @@ export const Countries = () => {
         <div className="countries-container">
             <CountrySearch
                 country={countryInput}
-                inputChange={event => setCountryInput(event.target.value)}
+                inputChange={event => {
+                    setCountryInput(event.target.value);
+                    setCountry({});
+                    setCountries([]);
+                }}
                 onSearch={() => setCountryUrl(getCountryUrl(countryInput))}
             />
-            <CountriesSelector countries={countries}/>
+            <CountriesSelector 
+                countryInput={countryInput}
+                countries={countries}
+                selectCountry={country => setCountry(country)}
+             />
+            {country.name !== '' && country.name}
+            {error !== '' && error}
         </div>
     );
 };
