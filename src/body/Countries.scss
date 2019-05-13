@@ -1,0 +1,25 @@
+.countries-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px auto;
+}
+
+.country-search {
+    label {
+        top: -5px;
+    }
+
+    input {
+        padding: 11.5px 14.5px;
+    }
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    margin-left: 10px;
+    color: blueviolet;
+}

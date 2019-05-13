@@ -1,7 +1,4 @@
-# Direct Flights
-Application to view all non stop flights to and from an airport
 
-# Airport API
 
 
 # Application Seed 
