@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.3",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
+    "axios": "^0.18.0",
+    "react": "16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-dom": "16.8.6",
     "react-scripts": "2.1.1"
   },
   "scripts": {
