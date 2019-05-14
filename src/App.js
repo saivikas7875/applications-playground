@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { Header } from './header/header';
-import { Countries } from './body/countries';
+import { Countries } from './countries/countries';
 import { withTheme } from '@material-ui/core/styles';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import deepOrange from '@material-ui/core/colors/deepOrange';

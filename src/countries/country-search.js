@@ -1,13 +1,13 @@
-import './Countries.scss';
+import './countries.scss';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import React from 'react';
 
-const stringRegex = /^[a-zA-Z]+$/;
+const stringRegex = /^([a-zA-Z]*\s*)*$/;
 
 export const CountrySearch = props => {
-  const onKeyPress = event => {
-    if (event.charCode === 13 && props.country !== '') {
+  const onKeyPress = showError => event => {
+    if (event.charCode === 13 && !showError) {
       event.preventDefault();
       props.onSearch(props.country);
     }
@@ -34,7 +34,7 @@ export const CountrySearch = props => {
         type="search"
         value={props.country}
         onChange={props.inputChange}
-        onKeyPress={onKeyPress}
+        onKeyPress={onKeyPress(showError)}
       />
       <Button
         color="secondary"
