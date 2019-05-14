@@ -1,4 +1,28 @@
 .app-header {
-    font-size: 24px;
-    padding: 10px;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.header-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+  margin: auto;
+
+  @media (max-width: 1600px) {
+    width: 1400px;
+  }
+
+  @media (max-width: 1400px) {
+    width: 1200px;
+  }
+
+  @media (max-width: 1200px) {
+    width: 1100px;
+  }
+}
+
+.title {
+  font-size: 30px;
 }
