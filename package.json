@@ -19,11 +19,7 @@
         "now-build": "react-scripts build"
     },
     "eslintConfig": {
-        "extends": "react-app",
-        "rules": {
-            "react-hooks/rules-of-hooks": "error",
-            "react-hooks/exhaustive-deps": "warn"
-        }
+        "extends": "react-app"
     },
     "browserslist": [
         ">0.2%",
@@ -32,7 +28,6 @@
         "not op_mini all"
     ],
     "devDependencies": {
-        "eslint-plugin-react-hooks": "^1.6.0",
         "husky": "^2.2.0",
         "lint-staged": "^8.1.6",
         "prettier": "^1.17.1"

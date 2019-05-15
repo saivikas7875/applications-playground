@@ -1,0 +1,31 @@
+.card-content {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.card-header-content {
+    color: white;
+}
+
+.card-header {
+    background-color: #00808057;
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+}
+
+.list-item-text {
+    font-size: 16px !important;
+
+    span {
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+
+.read-more-link {
+    align-self: center;
+}
