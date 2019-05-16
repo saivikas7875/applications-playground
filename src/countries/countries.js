@@ -24,7 +24,9 @@ export const Countries = () => {
             }
         };
 
-        getCountry();
+        if (countryUrl !== '') {
+            getCountry();
+        }
     }, [countryUrl]);
 
     return (

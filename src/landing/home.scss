@@ -1,0 +1,29 @@
+.applications {
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: repeat(2, minmax(50%, 50%));
+}
+
+.home-card-info {
+    font-style: italic;
+}
+
+.home-card-content {
+    padding: 10px !important;
+    text-align: center;
+
+    .link-root:hover {
+        background: none;
+    }
+}
+
+.link-label {
+    color: teal;
+    text-transform: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+
+    &:hover {
+        border-bottom-color: #ff3d00;
+    }
+}

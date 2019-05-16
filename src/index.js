@@ -2,7 +2,7 @@ import 'react-app-polyfill/stable';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { AppRoot } from './App';
+import {AppRoot} from './app';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<AppRoot />, document.getElementById('root'));

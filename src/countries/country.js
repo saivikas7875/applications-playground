@@ -10,8 +10,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 
 export const Country = props => {
-    console.log(props.country.languages.length !== 0);
-    console.log(props.country.languages.length !== 0);
     return (
         <section className='country-details'>
             <Typography variant='h5' align='center' color='secondary' gutterBottom>

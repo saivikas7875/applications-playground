@@ -1,4 +1,4 @@
-import { getData } from './axios-wrapper';
+import {getData} from './axios-wrapper';
 
 export const fetchAllCountries = async () => {
     const endPoint = `https://restcountries.eu/rest/v2/all`;
@@ -10,6 +10,6 @@ export const fetchCountry = countryUrl => {
     try {
         return getData(countryUrl);
     } catch (error) {
-        return error;
+        throw error;
     }
-}
+};
