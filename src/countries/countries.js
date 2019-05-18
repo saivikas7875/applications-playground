@@ -4,6 +4,7 @@ import {CountrySearch} from './country-search';
 import {fetchCountry} from '../services/countries';
 import {CountriesSelector} from './countries-selector';
 import {Country} from './country';
+import {Header} from '../header/header';
 
 const getCountryUrl = country => `https://restcountries.eu/rest/v2/name/${country}`;
 
@@ -30,22 +31,25 @@ export const Countries = () => {
     }, [countryUrl]);
 
     return (
-        <div className='countries-container'>
-            <CountrySearch
-                country={countryInput}
-                inputChange={event => {
-                    setCountryInput(event.target.value);
-                    setCountry({});
-                    setCountries([]);
-                }}
-                onSearch={() => setCountryUrl(getCountryUrl(countryInput))}
-            />
-            <CountriesSelector
-                countryInput={countryInput}
-                countries={countries}
-                selectCountry={country => setCountry(country)}
-            />
-            {typeof country.name !== 'undefined' && <Country country={country} />}
-        </div>
+        <>
+            <Header />
+            <div className='countries-container'>
+                <CountrySearch
+                    country={countryInput}
+                    inputChange={event => {
+                        setCountryInput(event.target.value);
+                        setCountry({});
+                        setCountries([]);
+                    }}
+                    onSearch={() => setCountryUrl(getCountryUrl(countryInput))}
+                />
+                <CountriesSelector
+                    countryInput={countryInput}
+                    countries={countries}
+                    selectCountry={country => setCountry(country)}
+                />
+                {typeof country.name !== 'undefined' && <Country country={country} />}
+            </div>
+        </>
     );
 };

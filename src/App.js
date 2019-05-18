@@ -1,6 +1,5 @@
 import './app.scss';
 import React from 'react';
-import {Header} from './header/header';
 import {Countries} from './countries/countries';
 import {Home} from './landing/home';
 import {withTheme} from '@material-ui/core/styles';
@@ -26,7 +25,6 @@ export const AppBase = () => (
     <BrowserRouter>
         <MuiThemeProvider theme={theme}>
             <div className='App'>
-                <Header />
                 <div className='app-content'>
                     <Route exact path='/' component={Home} />
                     <Route path='/countries' component={Countries} />

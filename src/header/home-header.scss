@@ -1,0 +1,79 @@
+.home-app-header {
+    display: flex;
+    height: 50%;
+    background: linear-gradient(teal, #ffffff);
+
+    .funky-shape {
+        width: 20%;
+        background-color: white;
+        clip-path: polygon(0 0, 0 100%, 50% 50%);
+    }
+
+    .title-container {
+        flex: 1 1 auto;
+        align-self: center;
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr 20%;
+        grid-template-rows: 50% 50%;
+        grid-column-gap: 20px;
+    }
+
+    .contact-card {
+        grid-area: links;
+        background-color: white;
+    }
+
+    .initial-grid {
+        .author-info {
+            cursor: pointer;
+            grid-area: links;
+            justify-self: center;
+            align-self: flex-start;
+            text-decoration: underline;
+            font-size: 24px;
+            font-style: italic;
+        }
+
+        grid-template-areas:
+            'title .'
+            'title links';
+    }
+
+    .grid-with-contact-card {
+        grid-template-areas:
+            'title links'
+            'title links';
+    }
+
+    .title {
+        align-self: center;
+        justify-self: center;
+        grid-area: title;
+        font-size: 60px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .arrow-head {
+        width: 20%;
+
+        &::before {
+            display: block;
+            width: 100%;
+            background-color: white;
+            height: 50%;
+            content: '';
+            clip-path: polygon(100% 0, 100% 100%, 50% 0);
+        }
+
+        &::after {
+            background-color: white;
+            content: '';
+            display: block;
+            width: 100%;
+            height: 50%;
+            clip-path: polygon(100% 0, 100% 100%, 50% 100%);
+        }
+    }
+}

@@ -4,66 +4,66 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.header-content-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    width: 1600px;
-    margin: auto;
+    .header-content-wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 1600px;
+        margin: auto;
 
-    @media (max-width: 1600px) {
-        width: 1400px;
+        @media (max-width: 1600px) {
+            width: 1400px;
+        }
+
+        @media (max-width: 1400px) {
+            width: 1200px;
+        }
+
+        @media (max-width: 1200px) {
+            width: 1100px;
+        }
     }
 
-    @media (max-width: 1400px) {
-        width: 1200px;
+    .header-content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 
-    @media (max-width: 1200px) {
-        width: 1100px;
-    }
-}
-
-.header-content {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.title {
-    font-size: 30px;
-}
-
-.app-navigation {
-    display: flex;
-    justify-content: space-between;
-}
-
-.app-navigation,
-.menu-gutter {
-    padding: 0 !important;
-}
-
-.home-menu-item {
-    padding: 6px !important;
-
-    &:hover {
-        background-color: #009688 !important;
-    }
-}
-
-.home-icon {
-    &:hover {
-        background-color: #009688 !important;
+    .title {
+        font-size: 30px;
     }
 
-    svg {
-        border-bottom: 5px solid transparent;
+    .app-navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .app-navigation,
+    .menu-gutter {
+        padding: 0 !important;
+    }
+
+    .home-menu-item {
+        padding: 6px !important;
 
         &:hover {
-            border-bottom-color: #ff3d00;
+            background-color: #009688 !important;
+        }
+    }
+
+    .home-icon {
+        &:hover {
+            background-color: #009688 !important;
+        }
+
+        svg {
+            border-bottom: 5px solid transparent;
+
+            &:hover {
+                border-bottom-color: #ff3d00;
+            }
         }
     }
 }
