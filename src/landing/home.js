@@ -28,6 +28,22 @@ export const Home = () => {
                         </Typography>
                     </CardContent>
                 </Card>
+                <Card classes={{root: 'home-card'}}>
+                    <CardContent classes={{root: 'home-card-content'}}>
+                        <Button
+                            component={Link}
+                            to='/capital-quiz'
+                            variant='text'
+                            size='small'
+                            classes={{root: 'link-root', label: 'link-label'}}
+                        >
+                            Quiz: Guess the Capital city
+                        </Button>
+                        <Typography variant='body1' classes={{root: 'home-card-info'}}>
+                            Test your knowledge about the world's capital cities
+                        </Typography>
+                    </CardContent>
+                </Card>
             </main>
         </section>
     );

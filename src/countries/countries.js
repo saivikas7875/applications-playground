@@ -1,7 +1,7 @@
 import './countries.scss';
 import React, {useState, useEffect} from 'react';
 import {CountrySearch} from './country-search';
-import {fetchCountry} from '../services/countries';
+import {fetchCountry} from '../helpers/countries';
 import {CountriesSelector} from './countries-selector';
 import {Country} from './country';
 import {Header} from '../header/header';
@@ -32,8 +32,8 @@ export const Countries = () => {
 
     return (
         <>
-            <Header />
-            <div className='countries-container'>
+            <Header application='Country Search' />
+            <div className='application-wrapper countries-container'>
                 <CountrySearch
                     country={countryInput}
                     inputChange={event => {

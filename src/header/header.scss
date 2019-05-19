@@ -26,34 +26,21 @@
     }
 
     .header-content {
-        align-items: center;
         display: flex;
-        justify-content: space-between;
     }
 
     .title {
         font-size: 30px;
+        line-height: 36px;
     }
 
-    .app-navigation {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .app-navigation,
     .menu-gutter {
         padding: 0 !important;
     }
 
-    .home-menu-item {
-        padding: 6px !important;
-
-        &:hover {
-            background-color: black !important;
-        }
-    }
-
     .home-icon {
+        padding: 0 !important;
+
         &:hover {
             background-color: black !important;
         }

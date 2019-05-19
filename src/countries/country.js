@@ -8,6 +8,7 @@ import ListItem from '@material-ui/core/ListItem';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
+import {formatArea, formatNumber} from '../helpers/number-formatter';
 
 export const Country = props => {
     return (
@@ -18,19 +19,25 @@ export const Country = props => {
             <div className='details-grid'>
                 <CountryCard title='Capital City' content={props.country.capital} />
                 <CountryCard title='Region' content={props.country.region} />
-                <CountryCard title='Area (in sq meters)' content={props.country.area} />
+                <CountryCard title='Area (in sq meters)' content={formatArea(props.country.area)} />
                 <CountryCard title='Demonym' content={props.country.demonym} />
-                <CountryCard title='Population' content={props.country.population} />
+                <CountryCard title='Population' content={formatNumber(props.country.population)} />
                 <Card raised>
                     <CardHeader
                         classes={{root: 'card-header', content: 'card-header-content', title: 'white-text'}}
                         title='Time zones'
                     />
                     <CardContent classes={{root: 'card-content'}}>
-                        <List dense>
+                        <List classes={{root: 'card-list'}} dense>
                             {props.country.timezones.map(timezone => (
-                                <ListItem divider={props.country.timezones.length > 1} key={timezone}>
-                                    <Typography variant='body2'> {timezone} </Typography>
+                                <ListItem
+                                    classes={{root: 'card-list-item'}}
+                                    divider={props.country.timezones.length > 1}
+                                    key={timezone}
+                                >
+                                    <Typography variant='body2' classes={{root: 'card-list-item-text'}}>
+                                        {timezone}
+                                    </Typography>
                                 </ListItem>
                             ))}
                         </List>
@@ -42,10 +49,16 @@ export const Country = props => {
                         title='Languages'
                     />
                     <CardContent classes={{root: 'card-content'}}>
-                        <List dense>
+                        <List classes={{root: 'card-list'}} dense>
                             {props.country.languages.map(language => (
-                                <ListItem divider={props.country.languages.length > 1} key={language.name}>
-                                    <Typography variant='body2'> {language.name} </Typography>
+                                <ListItem
+                                    classes={{root: 'card-list-item'}}
+                                    divider={props.country.languages.length > 1}
+                                    key={language.name}
+                                >
+                                    <Typography variant='body2' classes={{root: 'card-list-item-text'}}>
+                                        {language.name}
+                                    </Typography>
                                 </ListItem>
                             ))}
                         </List>

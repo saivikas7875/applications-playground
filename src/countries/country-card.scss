@@ -2,7 +2,7 @@
     font-style: italic;
     font-size: 16px;
     font-weight: bold;
-    max-height: 150px;
+    max-height: 200px;
     overflow-y: auto;
 }
 
@@ -29,4 +29,10 @@
 
 .read-more-link {
     align-self: center;
+}
+
+.card-list,
+.card-list-item,
+.card-list-item-text {
+    padding: 0 !important;
 }
