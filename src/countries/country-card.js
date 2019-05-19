@@ -8,7 +8,10 @@ import Typography from '@material-ui/core/Typography';
 export const CountryCard = props => {
     return (
         <Card raised>
-            <CardHeader classes={{root: 'card-header', content: 'card-header-content'}} title={props.title} />
+            <CardHeader
+                classes={{root: 'card-header', content: 'card-header-content', title: 'white-text'}}
+                title={props.title}
+            />
             <CardContent classes={{root: 'card-content'}}>
                 <Typography variant='body2'>{props.content}</Typography>
             </CardContent>

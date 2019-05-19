@@ -11,8 +11,8 @@ export const Home = () => {
     return (
         <section className='home-container'>
             <HomeHeader />
-            <div className='applications'>
-                <Card>
+            <main className='applications'>
+                <Card classes={{root: 'home-card'}}>
                     <CardContent classes={{root: 'home-card-content'}}>
                         <Button
                             component={Link}
@@ -23,12 +23,12 @@ export const Home = () => {
                         >
                             Countries
                         </Button>
-                        <Typography variant='caption' classes={{root: 'home-card-info'}}>
+                        <Typography variant='body1' classes={{root: 'home-card-info'}}>
                             View country information like population, size, time zones and languages
                         </Typography>
                     </CardContent>
                 </Card>
-            </div>
+            </main>
         </section>
     );
 };

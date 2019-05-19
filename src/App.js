@@ -5,12 +5,15 @@ import {Home} from './landing/home';
 import {withTheme} from '@material-ui/core/styles';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import deepOrange from '@material-ui/core/colors/deepOrange';
-import teal from '@material-ui/core/colors/teal';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 const theme = createMuiTheme({
     palette: {
-        primary: teal,
+        primary: {
+            main: '#000',
+            light: '#2c2c2c',
+            dark: '#000'
+        },
         secondary: deepOrange
     },
     status: {

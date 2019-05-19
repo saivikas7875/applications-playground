@@ -1,79 +1,131 @@
 .home-app-header {
     display: flex;
-    height: 50%;
-    background: linear-gradient(teal, #ffffff);
-
-    .funky-shape {
-        width: 20%;
-        background-color: white;
-        clip-path: polygon(0 0, 0 100%, 50% 50%);
-    }
+    flex: 1 0 40%;
+    background: black;
 
     .title-container {
         flex: 1 1 auto;
         align-self: center;
         display: grid;
         height: 100%;
-        grid-template-columns: 1fr 20%;
-        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
         grid-column-gap: 20px;
+        grid-template-areas:
+            'title'
+            'card';
+    }
+
+    .social-icon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .card-container {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .author-info {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        text-align: center;
+        height: 100%;
+        grid-template-areas:
+            'author'
+            'links';
+
+        .author {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            grid-area: author;
+
+            span + svg {
+                margin-left: 10px;
+            }
+        }
+
+        .links {
+            align-items: center;
+            grid-area: links;
+            display: flex;
+            justify-content: center;
+
+            a + a {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .card-container,
+    .contact-card,
+    .show-information {
+        width: 300px;
+        height: 100px;
+
+        @media (max-width: 800px) {
+            width: 250px;
+        }
     }
 
     .contact-card {
-        grid-area: links;
+        grid-area: card;
+        transform: rotateY(180deg);
         background-color: white;
+        box-shadow: 0px 0px 1px 3px #a7a7a7;
     }
 
-    .initial-grid {
-        .author-info {
-            cursor: pointer;
-            grid-area: links;
-            justify-self: center;
-            align-self: flex-start;
-            text-decoration: underline;
-            font-size: 24px;
-            font-style: italic;
-        }
-
-        grid-template-areas:
-            'title .'
-            'title links';
+    .contact-card,
+    .show-information {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .grid-with-contact-card {
-        grid-template-areas:
-            'title links'
-            'title links';
+        .card-wrapper {
+            transform: rotateY(180deg);
+        }
+    }
+
+    .card-wrapper {
+        transition: 1.5s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+
+    .show-information {
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        text-decoration: underline;
+        transform: rotateY(0deg);
+        z-index: 2;
     }
 
     .title {
         align-self: center;
         justify-self: center;
         grid-area: title;
-        font-size: 60px;
+        font-size: 40px;
         color: white;
         font-weight: bold;
-    }
 
-    .arrow-head {
-        width: 20%;
-
-        &::before {
-            display: block;
-            width: 100%;
-            background-color: white;
-            height: 50%;
-            content: '';
-            clip-path: polygon(100% 0, 100% 100%, 50% 0);
+        @media (max-width: 1200px) {
+            font-size: 32px;
         }
 
-        &::after {
-            background-color: white;
-            content: '';
-            display: block;
-            width: 100%;
-            height: 50%;
-            clip-path: polygon(100% 0, 100% 100%, 50% 100%);
+        @media (max-width: 1100px) {
+            font-size: 28px;
+        }
+
+        @media (max-width: 900px) {
+            font-size: 24px;
         }
     }
 }

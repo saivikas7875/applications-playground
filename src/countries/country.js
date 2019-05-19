@@ -22,7 +22,10 @@ export const Country = props => {
                 <CountryCard title='Demonym' content={props.country.demonym} />
                 <CountryCard title='Population' content={props.country.population} />
                 <Card raised>
-                    <CardHeader classes={{root: 'card-header', content: 'card-header-content'}} title='Time zones' />
+                    <CardHeader
+                        classes={{root: 'card-header', content: 'card-header-content', title: 'white-text'}}
+                        title='Time zones'
+                    />
                     <CardContent classes={{root: 'card-content'}}>
                         <List dense>
                             {props.country.timezones.map(timezone => (
@@ -34,7 +37,10 @@ export const Country = props => {
                     </CardContent>
                 </Card>
                 <Card raised>
-                    <CardHeader classes={{root: 'card-header', content: 'card-header-content'}} title='Languages' />
+                    <CardHeader
+                        classes={{root: 'card-header', content: 'card-header-content', title: 'white-text'}}
+                        title='Languages'
+                    />
                     <CardContent classes={{root: 'card-content'}}>
                         <List dense>
                             {props.country.languages.map(language => (
