@@ -4,7 +4,6 @@ import github from '../github.png';
 import twitter from '../twitter.png';
 import Typography from '@material-ui/core/Typography';
 import gmail from '../gmail.png';
-import FlipToFront from '@material-ui/icons/FlipToFront';
 
 export const HomeHeader = () => {
     const [showContactCard, toggleContactCard] = useState(false);
@@ -26,8 +25,8 @@ export const HomeHeader = () => {
                                     onClick={() => toggleContactCard(false)}
                                     onTouchStart={() => toggleContactCard(true)}
                                 >
-                                    <span className='name'>I am Sai Vikas Gopal</span>
-                                    <FlipToFront />
+                                    <span className='name'>Hey there, my name is Sai Vikas Gopal.</span>
+                                    <span className='caption'>Welcome to my application playground</span>
                                 </div>
                                 <div className='links'>
                                     <a href='https://github.com/saivikas7875' target='_blank' rel='noopener noreferrer'>
@@ -49,7 +48,7 @@ export const HomeHeader = () => {
                             aria-expanded={showContactCard}
                             aria-label='Show more'
                         >
-                            Hey there!
+                            Click me!
                         </Typography>
                     </div>
                 </div>

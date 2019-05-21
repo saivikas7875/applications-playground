@@ -1,5 +1,5 @@
 {
-    "name": "countries-info",
+    "name": "applications-playground",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -7,13 +7,10 @@
         "@material-ui/icons": "^3.0.2",
         "axios": "^0.18.0",
         "bignumber.js": "^8.1.1",
-        "node-sass": "^4.12.0",
         "react": "16.8.6",
         "react-app-polyfill": "^1.0.1",
         "react-dom": "16.8.6",
-        "react-router-dom": "^5.0.0",
-        "react-scripts": "2.1.1",
-        "react-transition-group": "^4.0.1"
+        "react-router-dom": "^5.0.0"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -33,7 +30,13 @@
         "eslint-plugin-react-hooks": "^1.6.0",
         "husky": "^2.2.0",
         "lint-staged": "^8.1.6",
-        "prettier": "^1.17.1"
+        "prettier": "^1.17.1",
+        "enzyme": "^3.9.0",
+        "enzyme-adapter-react-16": "^1.13.1",
+        "enzyme-to-json": "^3.3.5",
+        "node-sass": "^4.12.0",
+        "react-test-renderer": "^16.8.6",
+        "react-scripts": "2.1.1"
     },
     "husky": {
         "hooks": {

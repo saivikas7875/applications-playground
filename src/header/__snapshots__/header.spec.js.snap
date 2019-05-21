@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Application header snapshot should match its previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    application=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <div
+        className="header-content-wrapper"
+      >
+        <div
+          className="header-content"
+        >
+          <img
+            alt="logo"
+            className="App-logo"
+            src="country.png"
+          />
+          <div
+            className="title"
+          >
+            
+          </div>
+        </div>
+        <WithStyles(Button)
+          classes={
+            Object {
+              "root": "home-icon",
+            }
+          }
+          component={[Function]}
+          to="/"
+        >
+          <pure(HomeIcon)
+            color="secondary"
+            fontSize="large"
+          />
+        </WithStyles(Button)>
+      </div>,
+      "classes": Object {
+        "root": "app-header",
+      },
+      "color": "primary",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header-content"
+          >
+            <img
+              alt="logo"
+              className="App-logo"
+              src="country.png"
+            />
+            <div
+              className="title"
+            >
+              
+            </div>
+          </div>,
+          <WithStyles(Button)
+            classes={
+              Object {
+                "root": "home-icon",
+              }
+            }
+            component={[Function]}
+            to="/"
+          >
+            <pure(HomeIcon)
+              color="secondary"
+              fontSize="large"
+            />
+          </WithStyles(Button)>,
+        ],
+        "className": "header-content-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="logo"
+                className="App-logo"
+                src="country.png"
+              />,
+              <div
+                className="title"
+              >
+                
+              </div>,
+            ],
+            "className": "header-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "logo",
+                "className": "App-logo",
+                "src": "country.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <pure(HomeIcon)
+              color="secondary"
+              fontSize="large"
+            />,
+            "classes": Object {
+              "root": "home-icon",
+            },
+            "component": [Function],
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "secondary",
+              "fontSize": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="header-content-wrapper"
+        >
+          <div
+            className="header-content"
+          >
+            <img
+              alt="logo"
+              className="App-logo"
+              src="country.png"
+            />
+            <div
+              className="title"
+            >
+              
+            </div>
+          </div>
+          <WithStyles(Button)
+            classes={
+              Object {
+                "root": "home-icon",
+              }
+            }
+            component={[Function]}
+            to="/"
+          >
+            <pure(HomeIcon)
+              color="secondary"
+              fontSize="large"
+            />
+          </WithStyles(Button)>
+        </div>,
+        "classes": Object {
+          "root": "app-header",
+        },
+        "color": "primary",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="header-content"
+            >
+              <img
+                alt="logo"
+                className="App-logo"
+                src="country.png"
+              />
+              <div
+                className="title"
+              >
+                
+              </div>
+            </div>,
+            <WithStyles(Button)
+              classes={
+                Object {
+                  "root": "home-icon",
+                }
+              }
+              component={[Function]}
+              to="/"
+            >
+              <pure(HomeIcon)
+                color="secondary"
+                fontSize="large"
+              />
+            </WithStyles(Button)>,
+          ],
+          "className": "header-content-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="logo"
+                  className="App-logo"
+                  src="country.png"
+                />,
+                <div
+                  className="title"
+                >
+                  
+                </div>,
+              ],
+              "className": "header-content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "logo",
+                  "className": "App-logo",
+                  "src": "country.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                  "className": "title",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <pure(HomeIcon)
+                color="secondary"
+                fontSize="large"
+              />,
+              "classes": Object {
+                "root": "home-icon",
+              },
+              "component": [Function],
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "secondary",
+                "fontSize": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

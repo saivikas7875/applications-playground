@@ -1,0 +1,1497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Application home header snapshot should match its previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HomeHeader />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="title-container initial-grid"
+      >
+        <div
+          className="title"
+        >
+          <span>
+            Applications Playground
+          </span>
+        </div>
+        <div
+          className="card-container"
+        >
+          <div
+            className="card-wrapper"
+          >
+            <div
+              className="contact-card"
+            >
+              <div
+                className="author-info"
+              >
+                <div
+                  className="author"
+                  onClick={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <span
+                    className="name"
+                  >
+                    Hey there, my name is Sai Vikas Gopal.
+                  </span>
+                  <span
+                    className="caption"
+                  >
+                    Welcome to my application playground
+                  </span>
+                </div>
+                <div
+                  className="links"
+                >
+                  <a
+                    href="https://github.com/saivikas7875"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Github link"
+                      className="social-icon"
+                      src="github.png"
+                    />
+                  </a>
+                  <a
+                    href="https://twitter.com/saivikas_g"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Twitter link"
+                      className="social-icon"
+                      src="twitter.png"
+                    />
+                  </a>
+                  <a
+                    href="mailto:saivikas7875@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Email me"
+                      className="social-icon"
+                      src="gmail.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <WithStyles(Typography)
+              aria-expanded={false}
+              aria-label="Show more"
+              className="show-information"
+              onClick={[Function]}
+              onTouchStart={[Function]}
+            >
+              Click me!
+            </WithStyles(Typography)>
+          </div>
+        </div>
+      </div>,
+      "className": "home-app-header",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="title"
+          >
+            <span>
+              Applications Playground
+            </span>
+          </div>,
+          <div
+            className="card-container"
+          >
+            <div
+              className="card-wrapper"
+            >
+              <div
+                className="contact-card"
+              >
+                <div
+                  className="author-info"
+                >
+                  <div
+                    className="author"
+                    onClick={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <span
+                      className="name"
+                    >
+                      Hey there, my name is Sai Vikas Gopal.
+                    </span>
+                    <span
+                      className="caption"
+                    >
+                      Welcome to my application playground
+                    </span>
+                  </div>
+                  <div
+                    className="links"
+                  >
+                    <a
+                      href="https://github.com/saivikas7875"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Github link"
+                        className="social-icon"
+                        src="github.png"
+                      />
+                    </a>
+                    <a
+                      href="https://twitter.com/saivikas_g"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Twitter link"
+                        className="social-icon"
+                        src="twitter.png"
+                      />
+                    </a>
+                    <a
+                      href="mailto:saivikas7875@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Email me"
+                        className="social-icon"
+                        src="gmail.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <WithStyles(Typography)
+                aria-expanded={false}
+                aria-label="Show more"
+                className="show-information"
+                onClick={[Function]}
+                onTouchStart={[Function]}
+              >
+                Click me!
+              </WithStyles(Typography)>
+            </div>
+          </div>,
+        ],
+        "className": "title-container initial-grid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span>
+              Applications Playground
+            </span>,
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Applications Playground",
+            },
+            "ref": null,
+            "rendered": "Applications Playground",
+            "type": "span",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="card-wrapper"
+            >
+              <div
+                className="contact-card"
+              >
+                <div
+                  className="author-info"
+                >
+                  <div
+                    className="author"
+                    onClick={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <span
+                      className="name"
+                    >
+                      Hey there, my name is Sai Vikas Gopal.
+                    </span>
+                    <span
+                      className="caption"
+                    >
+                      Welcome to my application playground
+                    </span>
+                  </div>
+                  <div
+                    className="links"
+                  >
+                    <a
+                      href="https://github.com/saivikas7875"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Github link"
+                        className="social-icon"
+                        src="github.png"
+                      />
+                    </a>
+                    <a
+                      href="https://twitter.com/saivikas_g"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Twitter link"
+                        className="social-icon"
+                        src="twitter.png"
+                      />
+                    </a>
+                    <a
+                      href="mailto:saivikas7875@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Email me"
+                        className="social-icon"
+                        src="gmail.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <WithStyles(Typography)
+                aria-expanded={false}
+                aria-label="Show more"
+                className="show-information"
+                onClick={[Function]}
+                onTouchStart={[Function]}
+              >
+                Click me!
+              </WithStyles(Typography)>
+            </div>,
+            "className": "card-container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="contact-card"
+                >
+                  <div
+                    className="author-info"
+                  >
+                    <div
+                      className="author"
+                      onClick={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <span
+                        className="name"
+                      >
+                        Hey there, my name is Sai Vikas Gopal.
+                      </span>
+                      <span
+                        className="caption"
+                      >
+                        Welcome to my application playground
+                      </span>
+                    </div>
+                    <div
+                      className="links"
+                    >
+                      <a
+                        href="https://github.com/saivikas7875"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Github link"
+                          className="social-icon"
+                          src="github.png"
+                        />
+                      </a>
+                      <a
+                        href="https://twitter.com/saivikas_g"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Twitter link"
+                          className="social-icon"
+                          src="twitter.png"
+                        />
+                      </a>
+                      <a
+                        href="mailto:saivikas7875@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Email me"
+                          className="social-icon"
+                          src="gmail.png"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>,
+                <WithStyles(Typography)
+                  aria-expanded={false}
+                  aria-label="Show more"
+                  className="show-information"
+                  onClick={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  Click me!
+                </WithStyles(Typography)>,
+              ],
+              "className": "card-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="author-info"
+                  >
+                    <div
+                      className="author"
+                      onClick={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <span
+                        className="name"
+                      >
+                        Hey there, my name is Sai Vikas Gopal.
+                      </span>
+                      <span
+                        className="caption"
+                      >
+                        Welcome to my application playground
+                      </span>
+                    </div>
+                    <div
+                      className="links"
+                    >
+                      <a
+                        href="https://github.com/saivikas7875"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Github link"
+                          className="social-icon"
+                          src="github.png"
+                        />
+                      </a>
+                      <a
+                        href="https://twitter.com/saivikas_g"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Twitter link"
+                          className="social-icon"
+                          src="twitter.png"
+                        />
+                      </a>
+                      <a
+                        href="mailto:saivikas7875@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Email me"
+                          className="social-icon"
+                          src="gmail.png"
+                        />
+                      </a>
+                    </div>
+                  </div>,
+                  "className": "contact-card",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="author"
+                        onClick={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <span
+                          className="name"
+                        >
+                          Hey there, my name is Sai Vikas Gopal.
+                        </span>
+                        <span
+                          className="caption"
+                        >
+                          Welcome to my application playground
+                        </span>
+                      </div>,
+                      <div
+                        className="links"
+                      >
+                        <a
+                          href="https://github.com/saivikas7875"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Github link"
+                            className="social-icon"
+                            src="github.png"
+                          />
+                        </a>
+                        <a
+                          href="https://twitter.com/saivikas_g"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Twitter link"
+                            className="social-icon"
+                            src="twitter.png"
+                          />
+                        </a>
+                        <a
+                          href="mailto:saivikas7875@gmail.com"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Email me"
+                            className="social-icon"
+                            src="gmail.png"
+                          />
+                        </a>
+                      </div>,
+                    ],
+                    "className": "author-info",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="name"
+                          >
+                            Hey there, my name is Sai Vikas Gopal.
+                          </span>,
+                          <span
+                            className="caption"
+                          >
+                            Welcome to my application playground
+                          </span>,
+                        ],
+                        "className": "author",
+                        "onClick": [Function],
+                        "onTouchStart": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Hey there, my name is Sai Vikas Gopal.",
+                            "className": "name",
+                          },
+                          "ref": null,
+                          "rendered": "Hey there, my name is Sai Vikas Gopal.",
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Welcome to my application playground",
+                            "className": "caption",
+                          },
+                          "ref": null,
+                          "rendered": "Welcome to my application playground",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <a
+                            href="https://github.com/saivikas7875"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <img
+                              alt="Github link"
+                              className="social-icon"
+                              src="github.png"
+                            />
+                          </a>,
+                          <a
+                            href="https://twitter.com/saivikas_g"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <img
+                              alt="Twitter link"
+                              className="social-icon"
+                              src="twitter.png"
+                            />
+                          </a>,
+                          <a
+                            href="mailto:saivikas7875@gmail.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <img
+                              alt="Email me"
+                              className="social-icon"
+                              src="gmail.png"
+                            />
+                          </a>,
+                        ],
+                        "className": "links",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <img
+                              alt="Github link"
+                              className="social-icon"
+                              src="github.png"
+                            />,
+                            "href": "https://github.com/saivikas7875",
+                            "rel": "noopener noreferrer",
+                            "target": "_blank",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Github link",
+                              "className": "social-icon",
+                              "src": "github.png",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <img
+                              alt="Twitter link"
+                              className="social-icon"
+                              src="twitter.png"
+                            />,
+                            "href": "https://twitter.com/saivikas_g",
+                            "rel": "noopener noreferrer",
+                            "target": "_blank",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Twitter link",
+                              "className": "social-icon",
+                              "src": "twitter.png",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <img
+                              alt="Email me"
+                              className="social-icon"
+                              src="gmail.png"
+                            />,
+                            "href": "mailto:saivikas7875@gmail.com",
+                            "rel": "noopener noreferrer",
+                            "target": "_blank",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Email me",
+                              "className": "social-icon",
+                              "src": "gmail.png",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          "type": "a",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "aria-expanded": false,
+                  "aria-label": "Show more",
+                  "children": "Click me!",
+                  "className": "show-information",
+                  "onClick": [Function],
+                  "onTouchStart": [Function],
+                },
+                "ref": null,
+                "rendered": "Click me!",
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="title-container initial-grid"
+        >
+          <div
+            className="title"
+          >
+            <span>
+              Applications Playground
+            </span>
+          </div>
+          <div
+            className="card-container"
+          >
+            <div
+              className="card-wrapper"
+            >
+              <div
+                className="contact-card"
+              >
+                <div
+                  className="author-info"
+                >
+                  <div
+                    className="author"
+                    onClick={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <span
+                      className="name"
+                    >
+                      Hey there, my name is Sai Vikas Gopal.
+                    </span>
+                    <span
+                      className="caption"
+                    >
+                      Welcome to my application playground
+                    </span>
+                  </div>
+                  <div
+                    className="links"
+                  >
+                    <a
+                      href="https://github.com/saivikas7875"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Github link"
+                        className="social-icon"
+                        src="github.png"
+                      />
+                    </a>
+                    <a
+                      href="https://twitter.com/saivikas_g"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Twitter link"
+                        className="social-icon"
+                        src="twitter.png"
+                      />
+                    </a>
+                    <a
+                      href="mailto:saivikas7875@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Email me"
+                        className="social-icon"
+                        src="gmail.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <WithStyles(Typography)
+                aria-expanded={false}
+                aria-label="Show more"
+                className="show-information"
+                onClick={[Function]}
+                onTouchStart={[Function]}
+              >
+                Click me!
+              </WithStyles(Typography)>
+            </div>
+          </div>
+        </div>,
+        "className": "home-app-header",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="title"
+            >
+              <span>
+                Applications Playground
+              </span>
+            </div>,
+            <div
+              className="card-container"
+            >
+              <div
+                className="card-wrapper"
+              >
+                <div
+                  className="contact-card"
+                >
+                  <div
+                    className="author-info"
+                  >
+                    <div
+                      className="author"
+                      onClick={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <span
+                        className="name"
+                      >
+                        Hey there, my name is Sai Vikas Gopal.
+                      </span>
+                      <span
+                        className="caption"
+                      >
+                        Welcome to my application playground
+                      </span>
+                    </div>
+                    <div
+                      className="links"
+                    >
+                      <a
+                        href="https://github.com/saivikas7875"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Github link"
+                          className="social-icon"
+                          src="github.png"
+                        />
+                      </a>
+                      <a
+                        href="https://twitter.com/saivikas_g"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Twitter link"
+                          className="social-icon"
+                          src="twitter.png"
+                        />
+                      </a>
+                      <a
+                        href="mailto:saivikas7875@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Email me"
+                          className="social-icon"
+                          src="gmail.png"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <WithStyles(Typography)
+                  aria-expanded={false}
+                  aria-label="Show more"
+                  className="show-information"
+                  onClick={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  Click me!
+                </WithStyles(Typography)>
+              </div>
+            </div>,
+          ],
+          "className": "title-container initial-grid",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Applications Playground
+              </span>,
+              "className": "title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Applications Playground",
+              },
+              "ref": null,
+              "rendered": "Applications Playground",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="card-wrapper"
+              >
+                <div
+                  className="contact-card"
+                >
+                  <div
+                    className="author-info"
+                  >
+                    <div
+                      className="author"
+                      onClick={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <span
+                        className="name"
+                      >
+                        Hey there, my name is Sai Vikas Gopal.
+                      </span>
+                      <span
+                        className="caption"
+                      >
+                        Welcome to my application playground
+                      </span>
+                    </div>
+                    <div
+                      className="links"
+                    >
+                      <a
+                        href="https://github.com/saivikas7875"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Github link"
+                          className="social-icon"
+                          src="github.png"
+                        />
+                      </a>
+                      <a
+                        href="https://twitter.com/saivikas_g"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Twitter link"
+                          className="social-icon"
+                          src="twitter.png"
+                        />
+                      </a>
+                      <a
+                        href="mailto:saivikas7875@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          alt="Email me"
+                          className="social-icon"
+                          src="gmail.png"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <WithStyles(Typography)
+                  aria-expanded={false}
+                  aria-label="Show more"
+                  className="show-information"
+                  onClick={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  Click me!
+                </WithStyles(Typography)>
+              </div>,
+              "className": "card-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="contact-card"
+                  >
+                    <div
+                      className="author-info"
+                    >
+                      <div
+                        className="author"
+                        onClick={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <span
+                          className="name"
+                        >
+                          Hey there, my name is Sai Vikas Gopal.
+                        </span>
+                        <span
+                          className="caption"
+                        >
+                          Welcome to my application playground
+                        </span>
+                      </div>
+                      <div
+                        className="links"
+                      >
+                        <a
+                          href="https://github.com/saivikas7875"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Github link"
+                            className="social-icon"
+                            src="github.png"
+                          />
+                        </a>
+                        <a
+                          href="https://twitter.com/saivikas_g"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Twitter link"
+                            className="social-icon"
+                            src="twitter.png"
+                          />
+                        </a>
+                        <a
+                          href="mailto:saivikas7875@gmail.com"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Email me"
+                            className="social-icon"
+                            src="gmail.png"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>,
+                  <WithStyles(Typography)
+                    aria-expanded={false}
+                    aria-label="Show more"
+                    className="show-information"
+                    onClick={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    Click me!
+                  </WithStyles(Typography)>,
+                ],
+                "className": "card-wrapper",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="author-info"
+                    >
+                      <div
+                        className="author"
+                        onClick={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <span
+                          className="name"
+                        >
+                          Hey there, my name is Sai Vikas Gopal.
+                        </span>
+                        <span
+                          className="caption"
+                        >
+                          Welcome to my application playground
+                        </span>
+                      </div>
+                      <div
+                        className="links"
+                      >
+                        <a
+                          href="https://github.com/saivikas7875"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Github link"
+                            className="social-icon"
+                            src="github.png"
+                          />
+                        </a>
+                        <a
+                          href="https://twitter.com/saivikas_g"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Twitter link"
+                            className="social-icon"
+                            src="twitter.png"
+                          />
+                        </a>
+                        <a
+                          href="mailto:saivikas7875@gmail.com"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            alt="Email me"
+                            className="social-icon"
+                            src="gmail.png"
+                          />
+                        </a>
+                      </div>
+                    </div>,
+                    "className": "contact-card",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="author"
+                          onClick={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <span
+                            className="name"
+                          >
+                            Hey there, my name is Sai Vikas Gopal.
+                          </span>
+                          <span
+                            className="caption"
+                          >
+                            Welcome to my application playground
+                          </span>
+                        </div>,
+                        <div
+                          className="links"
+                        >
+                          <a
+                            href="https://github.com/saivikas7875"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <img
+                              alt="Github link"
+                              className="social-icon"
+                              src="github.png"
+                            />
+                          </a>
+                          <a
+                            href="https://twitter.com/saivikas_g"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <img
+                              alt="Twitter link"
+                              className="social-icon"
+                              src="twitter.png"
+                            />
+                          </a>
+                          <a
+                            href="mailto:saivikas7875@gmail.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <img
+                              alt="Email me"
+                              className="social-icon"
+                              src="gmail.png"
+                            />
+                          </a>
+                        </div>,
+                      ],
+                      "className": "author-info",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <span
+                              className="name"
+                            >
+                              Hey there, my name is Sai Vikas Gopal.
+                            </span>,
+                            <span
+                              className="caption"
+                            >
+                              Welcome to my application playground
+                            </span>,
+                          ],
+                          "className": "author",
+                          "onClick": [Function],
+                          "onTouchStart": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Hey there, my name is Sai Vikas Gopal.",
+                              "className": "name",
+                            },
+                            "ref": null,
+                            "rendered": "Hey there, my name is Sai Vikas Gopal.",
+                            "type": "span",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Welcome to my application playground",
+                              "className": "caption",
+                            },
+                            "ref": null,
+                            "rendered": "Welcome to my application playground",
+                            "type": "span",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <a
+                              href="https://github.com/saivikas7875"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              <img
+                                alt="Github link"
+                                className="social-icon"
+                                src="github.png"
+                              />
+                            </a>,
+                            <a
+                              href="https://twitter.com/saivikas_g"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              <img
+                                alt="Twitter link"
+                                className="social-icon"
+                                src="twitter.png"
+                              />
+                            </a>,
+                            <a
+                              href="mailto:saivikas7875@gmail.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              <img
+                                alt="Email me"
+                                className="social-icon"
+                                src="gmail.png"
+                              />
+                            </a>,
+                          ],
+                          "className": "links",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <img
+                                alt="Github link"
+                                className="social-icon"
+                                src="github.png"
+                              />,
+                              "href": "https://github.com/saivikas7875",
+                              "rel": "noopener noreferrer",
+                              "target": "_blank",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "Github link",
+                                "className": "social-icon",
+                                "src": "github.png",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            "type": "a",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <img
+                                alt="Twitter link"
+                                className="social-icon"
+                                src="twitter.png"
+                              />,
+                              "href": "https://twitter.com/saivikas_g",
+                              "rel": "noopener noreferrer",
+                              "target": "_blank",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "Twitter link",
+                                "className": "social-icon",
+                                "src": "twitter.png",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            "type": "a",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <img
+                                alt="Email me"
+                                className="social-icon"
+                                src="gmail.png"
+                              />,
+                              "href": "mailto:saivikas7875@gmail.com",
+                              "rel": "noopener noreferrer",
+                              "target": "_blank",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "Email me",
+                                "className": "social-icon",
+                                "src": "gmail.png",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            "type": "a",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "aria-expanded": false,
+                    "aria-label": "Show more",
+                    "children": "Click me!",
+                    "className": "show-information",
+                    "onClick": [Function],
+                    "onTouchStart": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Click me!",
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
