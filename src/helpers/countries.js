@@ -1,9 +1,13 @@
 import {getData} from './axios-wrapper';
 
 export const fetchAllCountries = async () => {
-    const endPoint = `https://restcountries.eu/rest/v2/all`;
+    const endPoint = await `https://restcountries.eu/rest/v2/all`;
 
-    return getData(endPoint);
+    try {
+        return getData(endPoint);
+    } catch (error) {
+        throw error;
+    }
 };
 
 export const fetchCountry = countryUrl => {

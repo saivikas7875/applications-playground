@@ -1,7 +1,7 @@
 import './app.scss';
 import React from 'react';
 import {Countries} from './countries/countries';
-import {CapitalQuiz} from './capital-quiz/capital-quiz';
+import {CapitalQuizContainer} from './capital-quiz/capital-quiz-container';
 import {Home} from './landing/home';
 import {withTheme} from '@material-ui/core/styles';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
@@ -32,7 +32,7 @@ export const AppBase = () => (
                 <div className='app-content'>
                     <Route exact path='/' component={Home} />
                     <Route path='/countries' component={Countries} />
-                    <Route path='/capital-quiz' component={CapitalQuiz} />
+                    <Route path='/capital-quiz' component={CapitalQuizContainer} />
                 </div>
             </div>
         </MuiThemeProvider>
