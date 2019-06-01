@@ -1,0 +1,23 @@
+.quiz-parameters {
+    text-align: center;
+}
+
+.parameters-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    + .start-button {
+        margin-top: 10px;
+    }
+}
+
+.parameter-options {
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.number + .difficulty {
+    margin-top: 20px;
+}

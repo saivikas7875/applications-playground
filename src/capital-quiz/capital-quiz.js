@@ -1,11 +1,12 @@
-import React from 'react';
-import {Header} from '../header/header';
+import React, {useState} from 'react';
+import {QuizQuestion} from './quiz-question';
 
-export const CapitalQuiz = () => {
+const buildOptions = question => question.otherAnswers.concat([question.correctAnswer]);
+
+export const CapitalQuiz = props => {
+    const [remainingQuestions, setRemainingQuestions] = useState(props.quizQuestions);
+
     return (
-        <>
-            <Header application='Capital City Quiz' />
-            <main className='application-wrapper'> Quiz </main>
-        </>
+        <QuizQuestion countryName={remainingQuestions[0].countryName} options={buildOptions(remainingQuestions[0])} />
     );
 };
