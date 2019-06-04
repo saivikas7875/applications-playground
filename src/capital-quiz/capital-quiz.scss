@@ -1,0 +1,18 @@
+.quiz-area {
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+
+    .quiz-action + .quiz-action {
+        margin-left: 10px;
+    }
+}
+
+.score {
+    display: flex !important;
+    justify-content: center;
+    margin-bottom: 20px !important;
+}

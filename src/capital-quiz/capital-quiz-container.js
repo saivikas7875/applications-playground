@@ -5,7 +5,7 @@ import {fetchAllCountries} from '../helpers/countries';
 import {QuizParameters} from './quiz-parameters';
 import {CapitalQuiz} from './capital-quiz';
 
-export const CapitalQuizContainer = () => {
+export const CapitalQuizContainer = props => {
     const [numberOfQuestions, setNumberOfQuestions] = useState('10');
     const [quizDifficulty, setQuizDifficulty] = useState('4');
     const [countries, setCountries] = useState([]);
@@ -23,12 +23,19 @@ export const CapitalQuizContainer = () => {
         getAllCountries();
     }, []);
 
+    console.log(quizInProgress);
+
     return (
         <>
             <Header application='Capital City Quiz' />
             <main className='application-wrapper'>
                 {quizInProgress ? (
-                    <CapitalQuiz quizQuestions={quizQuestions} endQuiz={() => setQuizInProgressState(false)} />
+                    <CapitalQuiz
+                        quizQuestions={quizQuestions}
+                        endQuiz={() => setQuizInProgressState(false)}
+                        history={props.history}
+                        numberOfQuestions={numberOfQuestions}
+                    />
                 ) : (
                     <QuizParameters
                         numberOfQuestions={numberOfQuestions}
