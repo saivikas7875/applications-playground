@@ -7,8 +7,9 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import {HomeHeader} from '../header/home-header';
+import {withAuthenticator} from '@aws-amplify/ui-react';
 
-export const Home = () => {
+const HomeBase = () => {
     return (
         <section className='home-container'>
             <HomeHeader />
@@ -65,3 +66,5 @@ export const Home = () => {
         </section>
     );
 };
+
+export const Home = withAuthenticator(HomeBase);

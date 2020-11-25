@@ -3,8 +3,10 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@aws-amplify/ui-react": "^0.2.30",
         "@material-ui/core": "^3.9.3",
         "@material-ui/icons": "^3.0.2",
+        "aws-amplify": "^3.3.10",
         "axios": "^0.18.1",
         "bignumber.js": "^8.1.1",
         "react": "16.8.6",
@@ -27,16 +29,16 @@
         "not op_mini all"
     ],
     "devDependencies": {
-        "eslint-plugin-react-hooks": "^1.6.0",
-        "husky": "^2.2.0",
-        "lint-staged": "^8.1.6",
-        "prettier": "^1.17.1",
         "enzyme": "^3.9.0",
         "enzyme-adapter-react-16": "^1.13.1",
         "enzyme-to-json": "^3.3.5",
+        "eslint-plugin-react-hooks": "^1.6.0",
+        "husky": "^2.2.0",
+        "lint-staged": "^8.1.6",
         "node-sass": "^4.13.1",
-        "react-test-renderer": "^16.8.6",
-        "react-scripts": "2.1.1"
+        "prettier": "^1.17.1",
+        "react-scripts": "2.1.1",
+        "react-test-renderer": "^16.8.6"
     },
     "husky": {
         "hooks": {

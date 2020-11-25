@@ -1,7 +1,8 @@
 .home-app-header {
     display: flex;
     flex: 1 0 40%;
-    background: black;
+    flex-direction: column;
+    background-color: black;
 
     .title-container {
         flex: 1 1 auto;
@@ -9,7 +10,7 @@
         display: grid;
         height: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 40% 60%;
+        grid-template-rows: 1fr 1fr;
         grid-column-gap: 20px;
         grid-template-areas:
             'title'
@@ -73,40 +74,8 @@
 
     .contact-card {
         grid-area: card;
-        transform: rotateY(180deg);
         background-color: white;
-        box-shadow: 0px 0px 1px 3px #a7a7a7;
-    }
-
-    .contact-card,
-    .show-information {
-        backface-visibility: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    .grid-with-contact-card {
-        .card-wrapper {
-            transform: rotateY(180deg);
-        }
-    }
-
-    .card-wrapper {
-        transition: 1.5s;
-        transform-style: preserve-3d;
-        position: relative;
-    }
-
-    .show-information {
-        color: white;
-        cursor: pointer;
-        font-size: 16px;
-        font-style: italic;
-        text-align: center;
-        text-decoration: underline;
-        transform: rotateY(0deg);
-        z-index: 2;
+        box-shadow: 0px 0px 1px 3px #e47a15;
     }
 
     .title {

@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-playground-dev-235050-authRole",
+      "UnauthRoleArn": "arn:aws:iam::709622567224:role/amplify-playground-dev-235050-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::709622567224:role/amplify-playground-dev-235050-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-playground-dev-235050-deployment",
+      "UnauthRoleName": "amplify-playground-dev-235050-unauthRole",
+      "StackName": "amplify-playground-dev-235050",
+      "StackId": "arn:aws:cloudformation:us-east-2:709622567224:stack/amplify-playground-dev-235050/a08e0af0-2e10-11eb-aa7a-0a22eae06df4",
+      "AmplifyAppId": "d2op2qjtcv1lql"
+    },
+    "categories": {
+      "function": {
+        "playground6b6684736b668473DefineAuthChallenge": {},
+        "playground6b6684736b668473CreateAuthChallenge": {},
+        "playground6b6684736b668473VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "n"
+        }
+      },
+      "auth": {
+        "playground6b6684736b668473": {}
+      }
+    }
+  }
+}
